@@ -20,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/turingschool-examples/react-starter-kit/issues"
   },
-  "postinstall": "webpack -p --config ./webpack.prod.config.js --progress",
   "homepage": "https://github.com/turingschool-examples/react-starter-kit",
   "dependencies":{
     "babel": "^6.5.2",
