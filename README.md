@@ -1,31 +1,35 @@
-# React Starter Kit
+# Weatherly
+[Production Site](https://anderswood.github.io/weatherly/)
 
-To install the dependencies:
+Weatherly is a weather forecasting app built with React.js that pulls weather data from the [Weather Underground API](https://www.wunderground.com/weather/api/). The app enables users to view hourly and 10 day weather forecasts for a selected city and stores the most recently selected city in the browser's local storage. The app is fully responsive.
 
-```
-npm install
-```
+I built the app with one partner as part of a school project over one week.
+* [Original Project Description](http://frontend.turing.io/projects/weathrly.html)
 
-To fire up a development server:
+# Project Status
+The project is complete
 
-```
-npm start
-```
+# Technology
+* React.js
+* Enzyme
+* Webpack
+* Deployed to GH Pages
+* Weather Underground API
 
-Once the server is running, you can visit:
+# Screenshots
+#### Landing Page:
+![Homescreen with no City Selected]()
 
-* `http://localhost:8080/webpack-dev-server/` to run your application.
-* `http://localhost:8080/webpack-dev-server/test.html` to run your test suite in the browser.
+#### Boulder Weather - Desktop:
+![Boulder Weather - Desktop]()
 
-To build the static files:
+#### Boulder Weather - Mobile:
+![Boulder Weather - Mobile]()
 
-```js
-npm run build
-```
+# Installation and Setup Instructions
+* Clone repo
+* Npm install
+* Npm start
 
-
-To run tests in Node:
-
-```js
-npm test
-```
+## Resources
+* React starter: [create-react-app](https://github.com/facebookincubator/create-react-app)
